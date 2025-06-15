@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="og:title" content="Disease Predictor">
+        <meta name="og:image" content="../static/assets/images/android-chrome-1024x1024.png">
+
+        <link rel="icon" href="../static/assets/images/android-chrome-512x512.png" sizes="512x512" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+        <link rel='stylesheet' href='../static/css/all.min.min.css'>
+
+        <title>HealthScope | Endocrinology</title>
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <img src='../static/assets/images/logo.png'>
+                <h1 data-index='1' class="animate" data-animation="slide-from-left">Your Health, Our Priority</h1>
+                <h2 data-index='2' class="animate" data-animation="slide-from-left">Harnessing the Power of Machine Learning to Predict Diseases with Unmatched Accuracy</h2>
+                <p data-index='3' class="animate" data-animation="slide-from-left">
+                    Our state-of-the-art ML algorithms analyze vast amounts of data to provide highly accurate and reliable predictions, empowering you to take control of your health.
+                </p>
+                <p data-index='4' class="animate" data-animation="slide-from-left">
+                    With proven accuracy and advanced technology, HealthPredict ensures precise insights, guiding you toward better care and early detection.
+                </p>
+            </header>
+            <div class="image-container animate" data-animation="float-up">
+                <img src="../static/assets/images/blood-cell.png">
+            </div>
+            <h1 class="title animate" data-animation="slide-from-left">Predict Your Health Condition – Complete the Form Below!</h1>
+            <section class="form-container" class="animate" data-animation="float-up">
+                <div class="image-card animate" data-animation="float-up">
+                    <img class='animate' data-animation="drop" src="../static/assets/images/red_blood_cell.png">
+                    <div class="parameter animate" data-animation="float-up" data-tilt data-tilt-glare>
+                        <span>~140<h5>mg/dL</h5></span>
+                        <h1>Glucose</h1>
+                    </div>
+                    <div class="parameter animate" data-animation="float-up" data-tilt data-tilt-glare>
+                        <span>~5.7<h5>%</h5></span>
+                        <h1>HbA1c</h1>
+                    </div>
+                    <div class="parameter animate" data-animation="float-up" data-tilt data-tilt-glare>
+                        <span>2-25<h5>µU/mL</h5></span>
+                        <h1>Insulin</h1>
+                    </div>
+                    <div class="parameter animate" data-animation="float-up" data-tilt data-tilt-glare>
+                        <span>0.9<h5>mm</h5></span>
+                        <h1>CIMT</h1>
+                    </div>
+                </div>
+                <div class='prediction-from'>
+                    <h1>Diabetes</h1>
+                    <p>
+                        Take charge of your health journey with accurate, data-driven predictions you can rely on.
+                    </p>
+                    <h2>Track Your Diabetes Now!</h2>
+                    <div>
+                        <form class="form">
+                            <div>
+                                <label>Pregnancies: </label>
+                                <input title="Data must be decimal values" pattern="[0-9.]+" name='input1' type='text' required></input>
+                            </div>
+                            <div>
+                                <label>Glucose:</label>
+                                <input title="Data must be decimal values" pattern="[0-9.]+" name='input2' type='text' required></input>
+                            </div>
+                            <div>
+                                <label>Blood Pressure:</label>
+                                <input title="Data must be decimal values" pattern="[0-9.]+" name='input3' type='text' required></input>
+                            </div>
+                            <div>
+                                <label>Skin Thickness: </label>
+                                <input title="Data must be decimal values" pattern="[0-9.]+" name='input4' type='text' required></input>
+                            </div>
+                            <div>
+                                <label>Insulin:</label>
+                                <input title="Data must be decimal values" pattern="[0-9.]+" name='input5' type='text' required></input>
+                            </div>
+                            <div>
+                                <label>BMI:</label>
+                                <input title="Data must be decimal values" pattern="[0-9.]+" name='input6' type='text' required></input>
+                            </div>
+                            <div>
+                                <label>Diabetes Pedigree Function: </label>
+                                <input title="Data must be decimal values" pattern="[0-9.]+" name='input7' type='text' required></input>
+                            </div>
+                            <div>
+                                <label>Age:</label>
+                                <input title="Data must be decimal values" pattern="[0-9.]+" name='input8' type='text' required></input>
+                            </div>
+                        </form>
+                        <button id='predict_result' class="animate" data-animation="drop">Make Prediction Now</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <span>
+                <span>
+                    <img src='../static/assets/images/android-chrome-192x192.png'>
+                    <h1>HealthScope</h1>
+                </span>
+                <p>
+                    HealthScope is an innovative web application that leverages cutting-edge technology to accurately predict multiple diseases, offering invaluable insights for proactive healthcare management.                    </p>
+            </span>
+            <span>
+                <h2>Contact Us:</h2>
+                <ul class="animate" data-animation="show">
+                    <span>
+                        <i class='fa-solid fa-envelope'></i>
+                        <li>Email:<br>nikunjrathore8623@gmail.com</li>
+                    </span>
+                    <span>
+                        <i class='fa-solid fa-phone'></i>
+                        <li>Contact:<br>(+91) 9027568604</li>
+                    </span>
+                    <span>
+                        <i class='fa-solid fa-location-dot'></i>
+                        <li>Dehradun, Uttarakhand, India</li>
+                    </span>
+                </ul>
+            </span>
+            <span class="socialmedia">
+                <h2>Follow Us:</h2>
+                <i class='fa-brands fa-twitter'></i>
+                <i class='fa-brands fa-facebook'></i>
+                <i class='fa-brands fa-instagram'></i>
+            </span>
+            <hr/>
+            <h4>©All rights reserved</h4>
+        </footer>
+    </body>
+    <script defer type="text/javascript" src="../static/js/script.js"></script>
+    <script defer type="text/javascript" src="../static/js/pridiction.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer type="text/javascript" src="../static/js/vanilla-tilt.min.js"></script>
+    <script defer type="text/javascript" src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
